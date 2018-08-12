@@ -1,0 +1,18 @@
+
+logging:
+  level: info
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/elearning?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=GMT&useSSL=false
+    username: root
+    password: dmj940210
+    initialSize: 20
+    minIdle: 100
+    maxActive: 1
+    maxWait: 6000
+    timeBetweenEvictionRunsMillis: 3000
+    minEvictableIdleTimeMillis: 3000
+
